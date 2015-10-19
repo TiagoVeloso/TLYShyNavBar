@@ -417,7 +417,7 @@ static void * const kTLYShyNavBarManagerKVOContext = (void*)&kTLYShyNavBarManage
 - (void)layoutViews
 {
     UIEdgeInsets scrollInsets = self.scrollView.contentInset;
-    scrollInsets.top = self.extensionController.viewMaxY;
+    //scrollInsets.top = self.extensionController.viewMaxY;
     
     if (UIEdgeInsetsEqualToEdgeInsets(scrollInsets, self.previousScrollInsets))
     {
